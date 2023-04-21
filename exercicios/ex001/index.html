@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/br_flag_icon_251691.svg" type="image/x-icon">
+    <title>Teste com Imagens</title>
+    <style>
+        p{
+            color: rgb(255, 255, 255);
+        }
+
+        body{
+            background-color: rgb(0, 54, 170);
+        }
+
+        a{
+            color: rgb(255, 196, 0);
+        }
+    </style>
+</head>
+<body>
+    <p>Testando <b>Negrito</b> e <em>Itálico</em></p>
+    <p>Vá para a página 2 <a href="pag2.html">aqui.</a></p>
+    <h2>Aqui você pode acessar o <a href="https://www.google.com.br/" target="_blank" rel="external">Google</a></h2>
+    <hr>
+    <h1>Links para dowload!</h1>
+    <ul>
+        <li><a href="assistência.pdf" type="application/pdf">Link 1!</a></li>
+    </ul>
+    <hr>
+    <h1>Reproduzindo Áudio!</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="#" controls autoplay>Music</audio>
+    <hr>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video controls loop autoplay width="500">
+        <source src="midia/por-do-sol2.mp4" type="video/mp4">
+        <source src="midia/por-do-sol.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <h1>Vídeos com hospedagem externa.</h1>
+    <p>Esse vídeo está em um host externo.</p>
+    <iframe width="500" height="320" src="https://www.youtube.com/embed/nzFAh2irxtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <h1>Imagem Dinâmica!</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/medio.png" type="image/png">
+        <img src="img/grande.png" alt="imagem flexivel">
+    </picture>
+
+</body>
+</html>

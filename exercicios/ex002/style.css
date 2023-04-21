@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* ShortHands
+
+font: italic bolder 3em Arial;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    background-image: linear-gradient(to right, #6CC5C6, #9ED6D7);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #025959;
+}
+
+h1{
+    color: #D1645D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #69322f;
+}
+
+h2{
+    color: #025959;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
