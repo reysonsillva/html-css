@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url();
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --
+    --
+    --
+    --
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
